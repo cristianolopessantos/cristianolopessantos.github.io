@@ -5,6 +5,14 @@ body {
     margin: 0px;
 }
 
+.Page {
+    display:none;
+}
+
+h2 {
+    display: none;
+}
+
 .ImageContainer img {
     width: 100%;
     height: auto;
@@ -19,4 +27,6 @@ input {
     z-index: 9999;
     display: block;
     border: none;
+    font-size: large;
+    vertical-align: top;
 }
