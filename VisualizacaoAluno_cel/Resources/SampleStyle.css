@@ -1,0 +1,22 @@
+/*
+    place extra stylesheet here
+*/
+body {
+    margin: 0px;
+}
+
+.ImageContainer img {
+    width: 100%;
+    height: auto;
+}
+map {
+    width: 100%;
+    height: auto;
+}
+
+input {
+    position: absolute;
+    z-index: 9999;
+    display: block;
+    border: none;
+}
