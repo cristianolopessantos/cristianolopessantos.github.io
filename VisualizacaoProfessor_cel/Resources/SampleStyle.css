@@ -1,7 +1,32 @@
 /*
     place extra stylesheet here
 */
+body {
+    margin: 0px;
+}
+
+.Page {
+    display:none;
+}
+
+h2 {
+    display: none;
+}
 
 .ImageContainer img {
-    border: solid 2px #999;
+    width: 100%;
+    height: auto;
+}
+map {
+    width: 100%;
+    height: auto;
+}
+
+input {
+    position: absolute;
+    z-index: 9999;
+    display: block;
+    border: none;
+    font-size: large;
+    vertical-align: top;
 }
