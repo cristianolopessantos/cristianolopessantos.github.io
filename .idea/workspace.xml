@@ -45,20 +45,20 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="index.html" pinned="false" current-in-tab="true">
+      <file leaf-file-name="index.html" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/VisualizacaoProfessor_cel/index.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="3315">
-              <caret line="195" column="48" selection-start-line="195" selection-start-column="48" selection-end-line="195" selection-end-column="48" />
+            <state relative-caret-position="85">
+              <caret line="5" selection-start-line="5" selection-end-line="5" />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="index.html" pinned="false" current-in-tab="false">
+      <file leaf-file-name="index.html" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/VisualizacaoAluno_cel/index.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="118">
-              <caret line="138" column="48" selection-start-line="138" selection-start-column="47" selection-end-line="138" selection-end-column="48" />
+            <state relative-caret-position="68">
+              <caret line="4" column="61" selection-start-line="4" selection-end-line="5" />
             </state>
           </provider>
         </entry>
@@ -192,7 +192,7 @@
       <option name="presentableId" value="Default" />
       <updated>1529869079653</updated>
       <workItem from="1529869088653" duration="1442000" />
-      <workItem from="1529871629930" duration="12621000" />
+      <workItem from="1529871629930" duration="13306000" />
     </task>
     <task id="LOCAL-00001" summary="Visualização do professor funcionando como deveria">
       <created>1529875622139</created>
@@ -243,11 +243,25 @@
       <option name="project" value="LOCAL" />
       <updated>1529903556684</updated>
     </task>
-    <option name="localTasksCounter" value="8" />
+    <task id="LOCAL-00008" summary="trocadas barras ao contrário nos links">
+      <created>1529903621273</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1529903621273</updated>
+    </task>
+    <task id="LOCAL-00009" summary="não permite mais que usuario redimensione a tela">
+      <created>1529904020238</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1529904020238</updated>
+    </task>
+    <option name="localTasksCounter" value="10" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="14063000" />
+    <option name="totallyTimeSpent" value="14748000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1382" height="744" extended-state="6" />
@@ -285,7 +299,9 @@
     <MESSAGE value="fontes corrigidas =&gt; relativas ao tamanho da tela" />
     <MESSAGE value="fontes corrigidas =&gt; um pouquinho menores" />
     <MESSAGE value="fontes redimensiondno corretamente (problema de fontes gigantes no textArea resolvido)" />
-    <option name="LAST_COMMIT_MESSAGE" value="fontes redimensiondno corretamente (problema de fontes gigantes no textArea resolvido)" />
+    <MESSAGE value="trocadas barras ao contrário nos links" />
+    <MESSAGE value="não permite mais que usuario redimensione a tela" />
+    <option name="LAST_COMMIT_MESSAGE" value="não permite mais que usuario redimensione a tela" />
   </component>
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/VisualizacaoProfessor_cel/Resources/script.js">
@@ -344,17 +360,17 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/VisualizacaoAluno_cel/index.html">
+    <entry file="file://$PROJECT_DIR$/VisualizacaoProfessor_cel/index.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="118">
-          <caret line="138" column="48" selection-start-line="138" selection-start-column="47" selection-end-line="138" selection-end-column="48" />
+        <state relative-caret-position="85">
+          <caret line="5" selection-start-line="5" selection-end-line="5" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/VisualizacaoProfessor_cel/index.html">
+    <entry file="file://$PROJECT_DIR$/VisualizacaoAluno_cel/index.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="3315">
-          <caret line="195" column="48" selection-start-line="195" selection-start-column="48" selection-end-line="195" selection-end-column="48" />
+        <state relative-caret-position="68">
+          <caret line="4" column="61" selection-start-line="4" selection-end-line="5" />
         </state>
       </provider>
     </entry>
