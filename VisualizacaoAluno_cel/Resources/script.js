@@ -7,6 +7,7 @@ function setInput(x0, y0, x1, y1) {
     var input = document.createElement("INPUT");
     input.style.width = width;
     input.style.height = height;
+    input.style.fontSize = height-2;
     input.style.top = y;
     input.style.left = x;
 
