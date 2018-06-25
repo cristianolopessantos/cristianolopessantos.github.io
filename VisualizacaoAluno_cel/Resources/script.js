@@ -1,13 +1,13 @@
 function setInput(x0, y0, x1, y1) {
-    var x = x0 + 4;
-    var y = y0 + 4;
+    var x = x0 + 8;
+    var y = y0 + 8;
     var width = x1 - x - 8;
     var height = y1 - y - 8;
 
     var input = document.createElement("INPUT");
     input.style.width = width;
     input.style.height = height;
-    input.style.fontSize = height-8;
+    input.style.fontSize = height-12;
     input.style.top = y;
     input.style.left = x;
 
@@ -40,7 +40,7 @@ function start() {
             newCoords = newCoordsArr.join(',');
             areas[i].coords = newCoords;
 
-        //    console.log(newCoords);
+            //    console.log(newCoords);
         }
 
         // troca os inputs por inputs
