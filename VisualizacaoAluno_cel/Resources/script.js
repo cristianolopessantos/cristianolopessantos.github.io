@@ -1,13 +1,13 @@
 function setInput(x0, y0, x1, y1) {
-    var x = x0 + 8;
-    var y = y0 + 8;
-    var width = x1 - x - 8;
-    var height = y1 - y - 8;
+    var x = x0 + Math.round((x1 - x0)/40);
+    var y = y0 + Math.round((y1 - y0)/10);
+    var width = x1 - x - Math.round((x1 - x0)/40);
+    var height = y1 - y - Math.round((y1 - y0)/10);
 
     var input = document.createElement("INPUT");
     input.style.width = width;
     input.style.height = height;
-    input.style.fontSize = height-12;
+    input.style.fontSize = height - Math.round(height/5);
     input.style.top = y;
     input.style.left = x;
 
