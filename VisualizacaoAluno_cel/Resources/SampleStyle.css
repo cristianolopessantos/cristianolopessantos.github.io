@@ -2,7 +2,15 @@
     place extra stylesheet here
 */
 body {
-    margin: 0px;
+    margin: 0;
+}
+
+.Page {
+    display:none;
+}
+
+h2 {
+    display: none;
 }
 
 .ImageContainer img {
@@ -19,4 +27,6 @@ input {
     z-index: 9999;
     display: block;
     border: none;
+    font-size: xx-large;
+    vertical-align: top;
 }

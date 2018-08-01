@@ -1,0 +1,145 @@
+<html xmlns="http://www.w3.org/1999/xhtml" xmlns:p="http://www.evolus.vn/Namespace/Pencil"
+      xmlns:html="http://www.w3.org/1999/xhtml">
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8"/>
+    <meta name="viewport" content="width=device-width, user-scalable=no, initial-scale=1, maximum-scale=1, minimum-scale=1" />
+    <title>minhaclasse_completo-aluno_mod-cel</title>
+    <link rel="stylesheet" href="Resources/SampleStyle.css"/>
+    <script src="Resources/script.js" type="text/javascript"></script>
+</head>
+<body onload="start()">
+<div class="Page" id="login_page"><h2>Login</h2>
+    <div class="ImageContainer"><img src="pages/login.png" width="240" height="361" usemap="#map_login"/></div>
+    <map name="map_login">
+        <area shape="rect" coords="75,219,164,262" href="#disciplinasinicial_page"
+              title="Go to page 'DisciplinasInicial'"/>
+        <area shape="rect" coords="10,159,229,188" href="#input_page" title="Go to page 'INPUT'"/>
+        <area shape="rect" coords="10,104,229,133" href="#input_page" title="Go to page 'INPUT'"/>
+    </map>
+</div>
+<div class="Page" id="disciplinasinicial_page"><h2>DisciplinasInicial</h2>
+    <div class="ImageContainer"><img src="pages/disciplinasinicial.png" width="240" height="361"
+                                     usemap="#map_disciplinasinicial"/></div>
+    <map name="map_disciplinasinicial">
+        <area shape="rect" coords="217,37,228.671875,59" href="#adicionar_disciplina_page"
+              title="Go to page 'Adicionar Disciplina'"/>
+    </map>
+</div>
+<div class="Page" id="adicionar_disciplina_page"><h2>Adicionar Disciplina</h2>
+    <div class="ImageContainer"><img src="pages/adicionar_disciplina.png" width="241" height="361"
+                                     usemap="#map_adicionar_disciplina"/></div>
+    <map name="map_adicionar_disciplina">
+        <area shape="rect" coords="205,124,229,148" href="#disciplinasihc_page" title="Go to page 'DisciplinasIHC'"/>
+        <area shape="rect" coords="11,37,35,61" href="#disciplinasinicial_page"
+              title="Go to page 'DisciplinasInicial'"/>
+        <area shape="rect" coords="1,66,241,95" href="#input_page" title="Go to page 'INPUT'"/>
+        <area shape="rect" coords="-2,0,241,32" href="#disciplinasihc_page" title="Go to page 'DisciplinasIHC'"/>
+    </map>
+</div>
+<div class="Page" id="disciplinasihc_page"><h2>DisciplinasIHC</h2>
+    <div class="ImageContainer"><img src="pages/disciplinasihc.png" width="240" height="361"
+                                     usemap="#map_disciplinasihc"/></div>
+    <map name="map_disciplinasihc">
+        <area shape="rect" coords="217,37,228.671875,59" href="#adicionar_disciplina_page"
+              title="Go to page 'Adicionar Disciplina'"/>
+        <area shape="rect" coords="0,66,240,146" href="#main_menu_page" title="Go to page 'Main Menu'"/>
+    </map>
+</div>
+<div class="Page" id="main_menu_page"><h2>Main Menu</h2>
+    <div class="ImageContainer"><img src="pages/main_menu.png" width="240" height="365" usemap="#map_main_menu"/></div>
+    <map name="map_main_menu">
+        <area shape="rect" coords="8,36,32,60" href="#disciplinasihc_page" title="Go to page 'DisciplinasIHC'"/>
+        <area shape="rect" coords="8,190,153,214" href="#material_page" title="Go to page 'Material'"/>
+        <area shape="rect" coords="8,150,87,174" href="#avaliaes_page" title="Go to page 'Avaliações'"/>
+        <area shape="rect" coords="8,113,92,137" href="#ementa_page" title="Go to page 'Ementa'"/>
+        <area shape="rect" coords="145,73,202,89" href="#ementa_page" title="Go to page 'Ementa'"/>
+        <area shape="rect" coords="54,73,143,89" href="#notificaes_page" title="Go to page 'Notificações'"/>
+        <area shape="rect" coords="0,0,240,32" href="#disciplinasihc_page" title="Go to page 'DisciplinasIHC'"/>
+    </map>
+</div>
+<div class="Page" id="ementa_page"><h2>Ementa</h2>
+    <div class="ImageContainer"><img src="pages/ementa.png" width="240" height="365" usemap="#map_ementa"/></div>
+    <map name="map_ementa">
+        <area shape="rect" coords="8,36,32,60" href="#disciplinasihc_page" title="Go to page 'DisciplinasIHC'"/>
+        <area shape="rect" coords="41,40,235,69" href="#main_menu_page" title="Go to page 'Main Menu'"/>
+        <area shape="rect" coords="8,72,50,88" href="#main_menu_page" title="Go to page 'Main Menu'"/>
+        <area shape="rect" coords="56,72,141,88" href="#notificaes_page" title="Go to page 'Notificações'"/>
+        <area shape="rect" coords="0,0,240,32" href="#disciplinasihc_page" title="Go to page 'DisciplinasIHC'"/>
+    </map>
+</div>
+<div class="Page" id="notificaes_page"><h2>Notificações</h2>
+    <div class="ImageContainer"><img src="pages/notificaes.png" width="240" height="365" usemap="#map_notificaes"/>
+    </div>
+    <map name="map_notificaes">
+        <area shape="rect" coords="8,36,32,60" href="#disciplinasihc_page" title="Go to page 'DisciplinasIHC'"/>
+        <area shape="rect" coords="41,40,235,69" href="#main_menu_page" title="Go to page 'Main Menu'"/>
+        <area shape="rect" coords="148,75,205,91" href="#ementa_page" title="Go to page 'Ementa'"/>
+        <area shape="rect" coords="9,75,51,91" href="#main_menu_page" title="Go to page 'Main Menu'"/>
+        <area shape="rect" coords="0,0,240,32" href="#disciplinasihc_page" title="Go to page 'DisciplinasIHC'"/>
+    </map>
+</div>
+<div class="Page" id="material_page"><h2>Material</h2>
+    <div class="ImageContainer"><img src="pages/material.png" width="240" height="365" usemap="#map_material"/></div>
+    <map name="map_material">
+        <area shape="rect" coords="8,36,32,60" href="#disciplinasihc_page" title="Go to page 'DisciplinasIHC'"/>
+        <area shape="rect" coords="41,40,235,69" href="#main_menu_page" title="Go to page 'Main Menu'"/>
+        <area shape="rect" coords="9,144,149,168" href="#material_1_page" title="Go to page 'material'"/>
+        <area shape="rect" coords="138,73,195,89" href="#ementa_page" title="Go to page 'Ementa'"/>
+        <area shape="rect" coords="56,73,133,89" href="#notificaes_page" title="Go to page 'Notificações'"/>
+        <area shape="rect" coords="9,73,51,89" href="#main_menu_page" title="Go to page 'Main Menu'"/>
+        <area shape="rect" coords="8,102,32,126" href="#main_menu_page" title="Go to page 'Main Menu'"/>
+        <area shape="rect" coords="41,106,161,122" href="#main_menu_page" title="Go to page 'Main Menu'"/>
+        <area shape="rect" coords="0,0,240,32" href="#disciplinasihc_page" title="Go to page 'DisciplinasIHC'"/>
+    </map>
+</div>
+<div class="Page" id="avaliaes_page"><h2>Avaliações</h2>
+    <div class="ImageContainer"><img src="pages/avaliaes.png" width="240" height="365" usemap="#map_avaliaes"/></div>
+    <map name="map_avaliaes">
+        <area shape="rect" coords="8,36,32,60" href="#disciplinasihc_page" title="Go to page 'DisciplinasIHC'"/>
+        <area shape="rect" coords="41,40,235,69" href="#main_menu_page" title="Go to page 'Main Menu'"/>
+        <area shape="rect" coords="23,253,78,271" href="#avaliao_tpicos_page" title="Go to page 'Avaliação Tópicos'"/>
+        <area shape="rect" coords="138,73,195,89" href="#ementa_page" title="Go to page 'Ementa'"/>
+        <area shape="rect" coords="56,73,133,89" href="#notificaes_page" title="Go to page 'Notificações'"/>
+        <area shape="rect" coords="9,73,51,89" href="#main_menu_page" title="Go to page 'Main Menu'"/>
+        <area shape="rect" coords="180,194,207,212" href="#avaliao_nota_page" title="Go to page 'Avaliação Nota'"/>
+        <area shape="rect" coords="23,170,78,188" href="#avaliao_tpicos_page" title="Go to page 'Avaliação Tópicos'"/>
+        <area shape="rect" coords="0,0,240,32" href="#disciplinasihc_page" title="Go to page 'DisciplinasIHC'"/>
+    </map>
+</div>
+<div class="Page" id="avaliao_tpicos_page"><h2>Avaliação Tópicos</h2>
+    <div class="ImageContainer"><img src="pages/avaliao_tpicos.png" width="240" height="365"
+                                     usemap="#map_avaliao_tpicos"/></div>
+    <map name="map_avaliao_tpicos">
+        <area shape="rect" coords="8,35,32,59" href="#disciplinasihc_page" title="Go to page 'DisciplinasIHC'"/>
+        <area shape="rect" coords="41,39,235,68" href="#main_menu_page" title="Go to page 'Main Menu'"/>
+        <area shape="rect" coords="9,101,33,125" href="#avaliaes_page" title="Go to page 'Avaliações'"/>
+        <area shape="rect" coords="9,74,51,90" href="#main_menu_page" title="Go to page 'Main Menu'"/>
+        <area shape="rect" coords="56,74,133,90" href="#notificaes_page" title="Go to page 'Notificações'"/>
+        <area shape="rect" coords="138,74,195,90" href="#ementa_page" title="Go to page 'Ementa'"/>
+        <area shape="rect" coords="0,0,240,32" href="#disciplinasihc_page" title="Go to page 'DisciplinasIHC'"/>
+    </map>
+</div>
+<div class="Page" id="avaliao_nota_page"><h2>Avaliação Nota</h2>
+    <div class="ImageContainer"><img src="pages/avaliao_nota.png" width="240" height="365" usemap="#map_avaliao_nota"/>
+    </div>
+    <map name="map_avaliao_nota">
+        <area shape="rect" coords="8,36,32,60" href="#disciplinasihc_page" title="Go to page 'DisciplinasIHC'"/>
+        <area shape="rect" coords="41,40,235,69" href="#main_menu_page" title="Go to page 'Main Menu'"/>
+        <area shape="rect" coords="9,102,33,126" href="#avaliaes_page" title="Go to page 'Avaliações'"/>
+        <area shape="rect" coords="9,75,51,91" href="#main_menu_page" title="Go to page 'Main Menu'"/>
+        <area shape="rect" coords="56,75,133,91" href="#notificaes_page" title="Go to page 'Notificações'"/>
+        <area shape="rect" coords="138,75,195,91" href="#ementa_page" title="Go to page 'Ementa'"/>
+        <area shape="rect" coords="0,0,240,32" href="#disciplinasihc_page" title="Go to page 'DisciplinasIHC'"/>
+    </map>
+</div>
+<div class="Page" id="input_page"><h2>INPUT</h2>
+    <div class="ImageContainer"><img src="pages/input.png" width="285" height="557" usemap="#map_input"/></div>
+    <map name="map_input"></map>
+</div>
+<div class="Page" id="material_1_page"><h2>material</h2>
+    <div class="ImageContainer"><img src="pages/material_1.png" width="240" height="361" usemap="#map_material_1"/>
+    </div>
+    <map name="map_material_1"></map>
+</div>
+</body>
+</html>
